@@ -1,5 +1,11 @@
-.obrkclanku {
-    
+
+.obr {
+    height: 100px;
+    width: 100px;
+}
+.zapati li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif
 }
 /*Topnav*/
 .topnav {
