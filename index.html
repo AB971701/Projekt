@@ -14,32 +14,77 @@
     <!--Top navigation-->
     <nav class="topnav" id="Topnav">
         <a href="#">Klub</a>
-        <a href="#">Soupiska</a>
-        <img class="logo" src="images/logo_small.png">
-        <a href="#">Články</a>
-        <a href="#">Vstupenky</a>
+        <a href="soupiska.html">Soupiska</a>
+        <a href="#"><img class="logo" src="images/logo_small.png"></a>
+        <a href="clanky.html">Články</a>
+        <a href="vstupenky.html">Vstupenky</a>
         <a href="javascript:void(0);" class="icon" onclick="topnav()">☰</a>
     </nav>
     <!--Slideshow-->
     <div class="slideshow">
-        <div class="hideSlides">
-            <img class="slideImg" src="">
+        <div class="Slides">
+            <img class="slides" src="images/Pijee pivson.jpg">
+            <div class="text">Caption Text</div>
         </div>
-        <!--Prev/Next Arrows-->
+        <div class="Slides">
+            <img class="slides" src="images/Pijee pivson.jpg">
+            <div class="text">Caption Two</div>
+        </div>
+        <div class="Slides">
+            <img class="slides" src="images/Pijee pivson.jpg">
+            <div class="text">Caption Three</div>
+        </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="prev" onclick="plusSlides(1)">&#10095;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
-    <!--Bottom Dots for Slideshow-->
-    <div class="dots">
+    <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlie(2)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
+    <!--Articles-->
     <div class="articles">
-        <article>
-            <img class="articleImg" src="">
-            <p>Article text: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore<span class="readMoreDots">...</span><span class="readMore">magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
-        </article>
+        <div class="flex-container">
+            <article>
+                <img class="articleImg" src="images/dalsi neco nevim.jpg">
+                <p>Article text: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut
+                    labore et dolore<span class="readMoreDots">...</span><span class="readMore">magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+                        Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.</span></p>
+            </article>
+            <article>
+                <img class="articleImg" src="images/dalsi neco nevim.jpg">
+                <p>Article text: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut
+                    labore et dolore<span class="readMoreDots">...</span><span class="readMore">magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+                        Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.</span></p>
+            </article>
+        </div>
+        <div class="flex-container">
+            <article>
+                <img class="articleImg" src="images/dalsi neco nevim.jpg">
+                <p>Article text: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut
+                    labore et dolore<span class="readMoreDots">...</span><span class="readMore">magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+                        Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.</span></p>
+            </article>
+            <article>
+                <img class="articleImg" src="images/dalsi neco nevim.jpg">
+                <p>Article text: Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut
+                    labore et dolore<span class="readMoreDots">...</span><span class="readMore">magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+                        Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.</span></p>
+            </article>
+        </div>
     </div>
     <footer></footer>
 </body>
