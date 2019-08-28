@@ -16,6 +16,8 @@
     justify-content: center;
     background-color: rgb(0,6,15);
     overflow: hidden;
+    position: fixed;
+    left: 0;
 }
 .topnav a{
     text-decoration: none;
@@ -24,6 +26,10 @@
     font-size: 2em;
     color: rgb(110,222,255);
     margin: 0 5%;
+    display: block; 
+}
+.topnav a:hover {
+    opacity: 0.5;
 }
 .topnav .icon{
     /*display: none;*/
@@ -33,19 +39,22 @@
     height: 100%;
 }
 @media screen and (max-width: 800px) {
-    .topnav a {display: none;}
+    .topnav a {
+        display: none;
+        align-items: right;
+    }
     .topnav a.icon {
       float: right;
       display: block;
+      right:0;
     }
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
+    .responsive {position: relative;}
+    .responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
-      float: right;
     }
-    .topnav.responsive a {
+    .responsive a {
       float: none;
       display: block;
       text-align: left;
