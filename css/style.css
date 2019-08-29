@@ -232,6 +232,9 @@ article p {
     font-weight: bold;
     padding: 3%;
 }
+h2 {
+    font-variant: small-caps;
+}
 
 /*Tickets*/
 
