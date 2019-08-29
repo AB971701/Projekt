@@ -173,6 +173,8 @@ img.slides {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
+    height: 20em;
+    width: auto;
 }
 
 /*Article flexbox*/
@@ -188,7 +190,8 @@ img.slides {
 
 article {
     margin: 1%;
-    border-radius: 2%
+    border-radius: 2%;
+    width: 50%;
 }
 
 article:hover {
@@ -296,5 +299,5 @@ button.ticketBtn:hover {
 }
 
 .top {
-    margin-top: 13%;
+    margin-top: 10%;
 }
