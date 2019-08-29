@@ -276,7 +276,7 @@ h2 {
     position: relative;
     text-align: center;
     padding: 4%;
-    
+    bottom: 5%;
 } 
 .ticketText .container {
     display: flex;
@@ -291,6 +291,10 @@ button.ticketBtn {
 button.ticketBtn:hover {
     background-color: rgb(110, 190, 255);
 }
-#more {
-    display: none;
+.zapati a:hover {
+    opacity: 0.8;
+}
+
+.top {
+    margin-top: 13%;
 }
