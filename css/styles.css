@@ -53,3 +53,6 @@
 .topnav .logo {
     height: 100%;
 }
+.ticketsImg img {
+    border: 0.2em solid rgb(110,222,255);
+}
