@@ -211,10 +211,12 @@ article p {
 
 .item {
     width: 25%;
+    
 }
 .player {
     position: relative;
 }
+
 .item .player .playerNo {
     position: absolute;
     top: 0%;
@@ -235,7 +237,14 @@ article p {
 h2 {
     font-variant: small-caps;
 }
-
+.teamImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.player .playerImg img {
+    border: 0.2em solid rgb(110, 222, 255);
+}
 /*Tickets*/
 
 .tickets-flex-container {
