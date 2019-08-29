@@ -12,10 +12,9 @@
     display: flex;
     /*flex-direction: row;*/
     justify-content: space-around;
-    left: 0;
 }
 .zacatek {
-    margin-top: 4em;
+    margin-top: 4.5em;
 }
 .zapati li {
     list-style-type: none; 
